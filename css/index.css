@@ -1,1 +1,8 @@
 /* Compile your LESS file! */
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    background-color: #A9927D;
+}
