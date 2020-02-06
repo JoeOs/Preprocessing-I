@@ -57,3 +57,33 @@ html, body {
     height: 100%;
 }
 
+//varibles
+
+@backgroundcolor: #E9EBEB9E
+
+.container {
+	background-color: @backgroundcolor;
+	header {
+		.navigation {
+			display: flex;
+			justify-content: flex-end;
+			flex-flow: row-reverse;
+			align-items: center;
+			a {
+				margin: auto;
+				text-decoration: none;
+				color: black;
+			}
+		}
+	}
+
+	.main-content {
+		display: border-box;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+		margin: auto;
+		border-radius: 5px;
+	}
+}
+
