@@ -1,1 +1,273 @@
 /* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.work {
+  font-size: 2em;
+  margin: 15px auto;
+}
+h3 {
+  font-size: 2em;
+  margin: 15px auto;
+}
+.container {
+  background-color: white;
+  width: 60%;
+  margin: 0px auto;
+}
+.container header .navigation {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.container header .navigation a {
+  margin: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+.container header .top-box {
+  display: border-box;
+  height: 100%;
+  background-color: rgba(214, 214, 214, 0.747);
+  width: 100%;
+  margin: 0 auto;
+  padding: 5% 3%;
+  border-radius: 5px;
+}
+.container header .top-box .name {
+  font-size: 35px;
+}
+.container header .top-box .info {
+  width: 50%;
+  display: block;
+  margin: 2% 0;
+}
+.container header .top-box .info .image1 {
+  border-radius: 5px;
+  height: 50%;
+  width: 50%;
+}
+.container header .top-box button {
+  border-radius: 5px;
+  padding: 10px;
+  width: 125px;
+  height: 40px;
+  /*position: relative;*/
+  margin-top: 5%;
+  background-color: #947e7e;
+  color: beige;
+}
+.container .content {
+  display: flex;
+  flex-direction: row;
+  margin: 2% auto;
+}
+.container .content .info {
+  width: 50%;
+  display: block;
+  margin: 2% 0;
+}
+.container .content .info table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #ffffffdc;
+}
+.container .content .info table td,
+.container .content .info table th {
+  border: 1px solid #313131;
+  text-align: left;
+  padding: 8px;
+}
+.container .content .info table td td,
+.container .content .info table th td,
+.container .content .info table td th,
+.container .content .info table th th {
+  border: 1px solid #313131;
+  text-align: left;
+  padding: 5px;
+}
+.container .content .info table td tr:nth-child(even),
+.container .content .info table th tr:nth-child(even) {
+  background-color: #f5e3e3;
+}
+.container .content .info table td,
+.container .content .info table th {
+  border: 1px solid #313131;
+  text-align: left;
+  padding: 8px;
+}
+.container .content .info table tr:nth-child(even) {
+  background-color: #9c9898;
+}
+.container .bottom-content .history .history {
+  font-size: 2em;
+  margin: 15px auto;
+}
+.container .bottom-content .history table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #ffffffdc;
+}
+.container .bottom-content .history table td,
+.container .bottom-content .history table th {
+  border: 1px solid #313131;
+  text-align: left;
+  padding: 8px;
+}
+.container .bottom-content .history table tr:nth-child(even) {
+  background-color: #f5e3e3;
+}
+.container .bottom-content .history td,
+.container .bottom-content .history th {
+  border: 1px solid #313131;
+  text-align: left;
+  padding: 8px;
+}
+.container .bottom-content .history tr:nth-child(even) {
+  background-color: #9c9898;
+}
+.container footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1%;
+  height: 6%;
+  background-color: #313131;
+}
+
